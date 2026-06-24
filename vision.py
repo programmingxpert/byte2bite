@@ -328,7 +328,7 @@ apple:3, tomato:2, milk:1, bread:1, onion:4"""
             }
             
             start_gen = time.time()
-            response = requests.post(url, json=payload, timeout=60)
+            response = requests.post(url, json=payload, timeout=300)
             if response.status_code == 200:
                 result = response.json().get("response", "").strip()
                 print(f"[Cloud Mode] Remote generation finished in {time.time() - start_gen:.4f}s")

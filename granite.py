@@ -116,7 +116,7 @@ def generate_with_granite(
         response = requests.post(
             f"{OLLAMA_BASE_URL}/api/generate",
             json=payload,
-            timeout=60
+            timeout=180
         )
         
         if response.status_code == 200:
