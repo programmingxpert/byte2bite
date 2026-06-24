@@ -52,7 +52,12 @@ async def shutdown_event():
 # Configure CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],  # Vite default port
+    allow_origins=[
+        "http://localhost:5173",
+        "http://localhost:3000",
+        "https://byte2bite.zeyuki.app",
+        "https://byte2bite.pages.dev"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -188,6 +193,23 @@ async def health_check():
         message="All systems operational",
         timestamp=time.time()
     )
+
+
+def run_update_and_restart():
+    import subprocess
+    import time
+    time.sleep(2)
+    subprocess.run(["git", "pull", "origin", "main"], cwd="/root/byte2bite")
+    subprocess.Popen(["systemctl", "restart", "byte2bite"])
+
+
+@app.post("/api/github-webhook")
+async def github_webhook(background_tasks: BackgroundTasks, secret: str = None):
+    expected_secret = os.getenv("WEBHOOK_SECRET", "satya@123")
+    if secret != expected_secret:
+        raise HTTPException(status_code=403, detail="Invalid webhook secret")
+    background_tasks.add_task(run_update_and_restart)
+    return {"status": "success", "message": "Update triggered"}
 
 
 @app.post("/api/upload-image")
