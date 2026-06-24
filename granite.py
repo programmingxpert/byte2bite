@@ -23,8 +23,8 @@ else:
     GRANITE_CACHE_FILE = SCRIPT_DIR / "granite_cache.json"
 
 # Ollama API configuration based on mode
-if MODEL_MODE == "cloud":
-    OLLAMA_BASE_URL = f"http://localhost:{TUNNEL_LOCAL_PORT}"
+if MODEL_MODE in ["cloud", "cloud_direct"]:
+    OLLAMA_BASE_URL = f"http://localhost:{TUNNEL_LOCAL_PORT}" if MODEL_MODE == "cloud" else "http://localhost:11434"
     GRANITE_MODEL = CLOUD_GRANITE_MODEL
 else:
     OLLAMA_BASE_URL = "http://localhost:11434"

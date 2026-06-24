@@ -302,13 +302,14 @@ def extract_ingredients(image_path):
     print(f"\n[CACHE MISS] Processing new image ({img_hash})...")
     
     result = ""
-    if MODEL_MODE == "cloud":
-        print(f"[Cloud Mode] Calling remote Ollama ({CLOUD_QWEN_MODEL}) over SSH tunnel...")
+    if MODEL_MODE in ["cloud", "cloud_direct"]:
+        print(f"[Cloud Mode] Calling remote Ollama ({CLOUD_QWEN_MODEL})...")
         try:
             with open(image_path, "rb") as image_file:
                 img_base64 = base64.b64encode(image_file.read()).decode("utf-8")
             
-            url = f"http://localhost:{TUNNEL_LOCAL_PORT}/api/generate"
+            port = TUNNEL_LOCAL_PORT if MODEL_MODE == "cloud" else 11434
+            url = f"http://localhost:{port}/api/generate"
             prompt = """Identify only edible food items with their quantities.
 For each item, specify the count if multiple are visible.
 Return in format: ingredient:count, ingredient:count
