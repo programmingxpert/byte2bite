@@ -305,8 +305,15 @@ def extract_ingredients(image_path):
     if MODEL_MODE in ["cloud", "cloud_direct"]:
         print(f"[Cloud Mode] Calling remote Ollama ({CLOUD_QWEN_MODEL})...")
         try:
-            with open(image_path, "rb") as image_file:
-                img_base64 = base64.b64encode(image_file.read()).decode("utf-8")
+            import io
+            with Image.open(image_path) as img:
+                fmt = img.format if img.format else "JPEG"
+                max_size = 512
+                if img.width > max_size or img.height > max_size:
+                    img.thumbnail((max_size, max_size))
+                buffer = io.BytesIO()
+                img.save(buffer, format=fmt)
+                img_base64 = base64.b64encode(buffer.getvalue()).decode("utf-8")
             
             port = TUNNEL_LOCAL_PORT if MODEL_MODE == "cloud" else 11434
             url = f"http://localhost:{port}/api/generate"
