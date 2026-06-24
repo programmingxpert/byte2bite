@@ -175,7 +175,7 @@ async def root():
     """Root endpoint - health check"""
     return HealthResponse(
         status="healthy",
-        message="RecipeAI API is running",
+        message="Byte2Bite API is running",
         timestamp=time.time()
     )
 
@@ -802,7 +802,7 @@ async def internal_error_handler(request, exc):
 
 
 if __name__ == "__main__":
-    print("Starting RecipeAI FastAPI Backend...")
+    print("Starting Byte2Bite FastAPI Backend...")
     print("API Documentation: http://localhost:8000/docs")
     print("Health Check: http://localhost:8000/health")
     
