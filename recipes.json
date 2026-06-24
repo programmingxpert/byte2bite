@@ -1,0 +1,2296 @@
+[
+  {
+    "name": "Classic Lemon Rice",
+    "ingredients": [
+      "rice",
+      "lemon",
+      "mustard seeds",
+      "curry leaves",
+      "turmeric"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 2,
+    "description": "Tangy South Indian rice dish perfect for using leftover rice",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Chawal ke Pakode",
+    "ingredients": [
+      "rice",
+      "curd",
+      "besan",
+      "onion",
+      "spices"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Easy",
+    "time": "20 minutes",
+    "servings": 3,
+    "description": "Crispy rice fritters made with leftover rice and gram flour",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Curd Rice",
+    "ingredients": [
+      "rice",
+      "curd",
+      "cucumber",
+      "curry leaves",
+      "mustard seeds"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Easy",
+    "time": "10 minutes",
+    "servings": 2,
+    "description": "Cooling South Indian comfort food with yogurt and rice",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Vegetable Rice Cutlets",
+    "ingredients": [
+      "rice",
+      "potato",
+      "carrot",
+      "peas",
+      "breadcrumbs"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Medium",
+    "time": "30 minutes",
+    "servings": 4,
+    "description": "Crispy vegetable and rice patties, great for snacks",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Spicy Roti Upma",
+    "ingredients": [
+      "roti",
+      "onion",
+      "tomato",
+      "green chili",
+      "spices"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 2,
+    "description": "Quick breakfast using leftover rotis with vegetables",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Leftover Roti Frankie",
+    "ingredients": [
+      "roti",
+      "onion",
+      "potato",
+      "chutney",
+      "spices"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Easy",
+    "time": "20 minutes",
+    "servings": 2,
+    "description": "Mumbai street food style wrap with leftover rotis",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Chapati Noodles",
+    "ingredients": [
+      "roti",
+      "capsicum",
+      "cabbage",
+      "carrot",
+      "soy sauce"
+    ],
+    "cuisine": "Fusion",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 2,
+    "description": "Indo-Chinese fusion dish using leftover chapatis",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Masala Bread Upma",
+    "ingredients": [
+      "bread",
+      "onion",
+      "tomato",
+      "green chili",
+      "spices"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 2,
+    "description": "Savory breakfast dish made with stale bread",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Bread Poha",
+    "ingredients": [
+      "bread",
+      "peanut",
+      "onion",
+      "turmeric",
+      "curry leaves"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 2,
+    "description": "Bread version of traditional poha, quick breakfast",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Dal Paratha",
+    "ingredients": [
+      "dal",
+      "atta",
+      "onion",
+      "green chili",
+      "spices"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Medium",
+    "time": "25 minutes",
+    "servings": 3,
+    "description": "Stuffed flatbread using leftover dal",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Vegetable Peel Thuviyal",
+    "ingredients": [
+      "vegetable peel",
+      "coconut",
+      "tamarind",
+      "dal",
+      "spices"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Easy",
+    "time": "20 minutes",
+    "servings": 4,
+    "description": "Zero-waste South Indian chutney from vegetable scraps",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Sooji Curd Chilla",
+    "ingredients": [
+      "curd",
+      "sooji",
+      "onion",
+      "green chili",
+      "coriander"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Easy",
+    "time": "20 minutes",
+    "servings": 2,
+    "description": "Savory semolina pancakes with yogurt",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Spaghetti Carbonara",
+    "ingredients": [
+      "spaghetti",
+      "eggs",
+      "bacon",
+      "parmesan cheese",
+      "black pepper"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "Medium",
+    "time": "25 minutes",
+    "servings": 4,
+    "description": "Classic Roman pasta with creamy egg and bacon sauce",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Penne Arrabbiata",
+    "ingredients": [
+      "penne pasta",
+      "tomato",
+      "garlic",
+      "red chili flakes",
+      "olive oil"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "Easy",
+    "time": "20 minutes",
+    "servings": 3,
+    "description": "Spicy tomato pasta with garlic and chili",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Fettuccine Alfredo",
+    "ingredients": [
+      "fettuccine",
+      "butter",
+      "cream",
+      "parmesan cheese",
+      "garlic"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "Easy",
+    "time": "20 minutes",
+    "servings": 4,
+    "description": "Rich and creamy white sauce pasta",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Mac and Cheese",
+    "ingredients": [
+      "macaroni",
+      "cheddar cheese",
+      "milk",
+      "butter",
+      "flour"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "25 minutes",
+    "servings": 4,
+    "description": "Classic comfort food with creamy cheese sauce",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Lasagna",
+    "ingredients": [
+      "lasagna sheets",
+      "ground beef",
+      "tomato sauce",
+      "ricotta cheese",
+      "mozzarella"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "Hard",
+    "time": "90 minutes",
+    "servings": 6,
+    "description": "Layered pasta bake with meat and cheese",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Pesto Pasta",
+    "ingredients": [
+      "pasta",
+      "basil",
+      "pine nuts",
+      "parmesan cheese",
+      "garlic",
+      "olive oil"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "Easy",
+    "time": "20 minutes",
+    "servings": 3,
+    "description": "Fresh basil pesto tossed with pasta",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Pasta Primavera",
+    "ingredients": [
+      "pasta",
+      "broccoli",
+      "bell pepper",
+      "zucchini",
+      "garlic",
+      "olive oil"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "Easy",
+    "time": "25 minutes",
+    "servings": 4,
+    "description": "Light pasta with fresh spring vegetables",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Spaghetti Bolognese",
+    "ingredients": [
+      "spaghetti",
+      "ground beef",
+      "tomato",
+      "onion",
+      "carrot",
+      "celery"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "Medium",
+    "time": "45 minutes",
+    "servings": 4,
+    "description": "Classic meat sauce pasta",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Aglio e Olio",
+    "ingredients": [
+      "spaghetti",
+      "garlic",
+      "olive oil",
+      "red chili flakes",
+      "parsley"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 2,
+    "description": "Simple garlic and oil pasta, quick and delicious",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Baked Ziti",
+    "ingredients": [
+      "ziti pasta",
+      "ricotta cheese",
+      "mozzarella",
+      "tomato sauce",
+      "italian sausage"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "Medium",
+    "time": "50 minutes",
+    "servings": 6,
+    "description": "Baked pasta casserole with cheese and meat",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Pasta alla Vodka",
+    "ingredients": [
+      "penne pasta",
+      "vodka",
+      "cream",
+      "tomato sauce",
+      "onion",
+      "garlic"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "Medium",
+    "time": "30 minutes",
+    "servings": 4,
+    "description": "Creamy tomato pasta with vodka",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Cacio e Pepe",
+    "ingredients": [
+      "spaghetti",
+      "pecorino cheese",
+      "black pepper",
+      "pasta water"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "Medium",
+    "time": "20 minutes",
+    "servings": 2,
+    "description": "Roman pasta with cheese and pepper",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Vegetable Fried Rice",
+    "ingredients": [
+      "rice",
+      "carrot",
+      "peas",
+      "corn",
+      "soy sauce",
+      "eggs"
+    ],
+    "cuisine": "Asian",
+    "difficulty": "Easy",
+    "time": "20 minutes",
+    "servings": 3,
+    "description": "Quick stir-fried rice with vegetables",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Chicken Biryani",
+    "ingredients": [
+      "rice",
+      "chicken",
+      "yogurt",
+      "onion",
+      "spices",
+      "saffron"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Hard",
+    "time": "90 minutes",
+    "servings": 6,
+    "description": "Aromatic layered rice dish with spiced chicken",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Mushroom Risotto",
+    "ingredients": [
+      "arborio rice",
+      "mushroom",
+      "white wine",
+      "parmesan cheese",
+      "butter",
+      "onion"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "Medium",
+    "time": "40 minutes",
+    "servings": 4,
+    "description": "Creamy Italian rice with mushrooms",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Vegetable Pulao",
+    "ingredients": [
+      "rice",
+      "mixed vegetables",
+      "cumin",
+      "bay leaf",
+      "ghee"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Easy",
+    "time": "30 minutes",
+    "servings": 4,
+    "description": "Mildly spiced rice with vegetables",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Chicken Fried Rice",
+    "ingredients": [
+      "rice",
+      "chicken",
+      "eggs",
+      "soy sauce",
+      "vegetables",
+      "garlic"
+    ],
+    "cuisine": "Asian",
+    "difficulty": "Easy",
+    "time": "25 minutes",
+    "servings": 4,
+    "description": "Classic Chinese fried rice with chicken",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Spanish Paella",
+    "ingredients": [
+      "rice",
+      "chicken",
+      "shrimp",
+      "saffron",
+      "bell pepper",
+      "peas"
+    ],
+    "cuisine": "Spanish",
+    "difficulty": "Hard",
+    "time": "60 minutes",
+    "servings": 6,
+    "description": "Traditional Spanish rice dish with seafood",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Kimchi Fried Rice",
+    "ingredients": [
+      "rice",
+      "kimchi",
+      "eggs",
+      "sesame oil",
+      "green onion"
+    ],
+    "cuisine": "Korean",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 2,
+    "description": "Spicy Korean fried rice with fermented kimchi",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Mexican Rice Bowl",
+    "ingredients": [
+      "rice",
+      "black beans",
+      "corn",
+      "avocado",
+      "salsa",
+      "cheese"
+    ],
+    "cuisine": "Mexican",
+    "difficulty": "Easy",
+    "time": "25 minutes",
+    "servings": 3,
+    "description": "Healthy rice bowl with Mexican flavors",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Jeera Rice",
+    "ingredients": [
+      "rice",
+      "cumin seeds",
+      "ghee",
+      "bay leaf",
+      "green chili"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Easy",
+    "time": "20 minutes",
+    "servings": 4,
+    "description": "Fragrant cumin-flavored rice",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Thai Pineapple Fried Rice",
+    "ingredients": [
+      "rice",
+      "pineapple",
+      "shrimp",
+      "cashews",
+      "curry powder",
+      "eggs"
+    ],
+    "cuisine": "Thai",
+    "difficulty": "Medium",
+    "time": "30 minutes",
+    "servings": 4,
+    "description": "Sweet and savory Thai fried rice",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Egg Fried Rice",
+    "ingredients": [
+      "rice",
+      "eggs",
+      "soy sauce",
+      "green onion",
+      "garlic"
+    ],
+    "cuisine": "Asian",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 2,
+    "description": "Simple and quick egg fried rice",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Fluffy Pancakes",
+    "ingredients": [
+      "flour",
+      "eggs",
+      "milk",
+      "butter",
+      "baking powder",
+      "sugar"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "20 minutes",
+    "servings": 4,
+    "description": "Classic American breakfast pancakes",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Cheese Omelette",
+    "ingredients": [
+      "eggs",
+      "cheese",
+      "butter",
+      "milk",
+      "salt",
+      "pepper"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "10 minutes",
+    "servings": 1,
+    "description": "Fluffy omelette filled with melted cheese",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "French Toast",
+    "ingredients": [
+      "bread",
+      "eggs",
+      "milk",
+      "cinnamon",
+      "vanilla",
+      "butter"
+    ],
+    "cuisine": "French",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 2,
+    "description": "Sweet eggy bread perfect for breakfast",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Scrambled Eggs",
+    "ingredients": [
+      "eggs",
+      "butter",
+      "milk",
+      "salt",
+      "pepper"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "10 minutes",
+    "servings": 2,
+    "description": "Creamy scrambled eggs",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Breakfast Burrito",
+    "ingredients": [
+      "tortilla",
+      "eggs",
+      "cheese",
+      "sausage",
+      "bell pepper",
+      "onion"
+    ],
+    "cuisine": "Mexican",
+    "difficulty": "Easy",
+    "time": "20 minutes",
+    "servings": 2,
+    "description": "Hearty breakfast wrap with eggs and sausage",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Smoothie Bowl",
+    "ingredients": [
+      "banana",
+      "berries",
+      "yogurt",
+      "granola",
+      "honey"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "10 minutes",
+    "servings": 1,
+    "description": "Healthy fruit smoothie bowl with toppings",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Avocado Toast",
+    "ingredients": [
+      "bread",
+      "avocado",
+      "eggs",
+      "lemon",
+      "salt",
+      "pepper"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "10 minutes",
+    "servings": 2,
+    "description": "Trendy breakfast with mashed avocado on toast",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Masala Dosa",
+    "ingredients": [
+      "dosa batter",
+      "potato",
+      "onion",
+      "mustard seeds",
+      "curry leaves"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Medium",
+    "time": "30 minutes",
+    "servings": 4,
+    "description": "South Indian crispy crepe with spiced potato filling",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Poha",
+    "ingredients": [
+      "flattened rice",
+      "onion",
+      "potato",
+      "peanuts",
+      "curry leaves",
+      "turmeric"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Easy",
+    "time": "20 minutes",
+    "servings": 3,
+    "description": "Light and fluffy flattened rice breakfast",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Upma",
+    "ingredients": [
+      "semolina",
+      "onion",
+      "green chili",
+      "curry leaves",
+      "mustard seeds"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Easy",
+    "time": "20 minutes",
+    "servings": 3,
+    "description": "Savory semolina porridge",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Eggs Benedict",
+    "ingredients": [
+      "english muffin",
+      "eggs",
+      "ham",
+      "hollandaise sauce",
+      "butter"
+    ],
+    "cuisine": "American",
+    "difficulty": "Hard",
+    "time": "30 minutes",
+    "servings": 2,
+    "description": "Elegant breakfast with poached eggs and hollandaise",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Waffles",
+    "ingredients": [
+      "flour",
+      "eggs",
+      "milk",
+      "butter",
+      "baking powder",
+      "sugar"
+    ],
+    "cuisine": "Belgian",
+    "difficulty": "Easy",
+    "time": "20 minutes",
+    "servings": 4,
+    "description": "Crispy Belgian waffles",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Grilled Cheese Sandwich",
+    "ingredients": [
+      "bread",
+      "cheese",
+      "butter"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "10 minutes",
+    "servings": 1,
+    "description": "Classic melted cheese sandwich",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Club Sandwich",
+    "ingredients": [
+      "bread",
+      "chicken",
+      "bacon",
+      "lettuce",
+      "tomato",
+      "mayonnaise"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 2,
+    "description": "Triple-decker sandwich with chicken and bacon",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Chicken Wrap",
+    "ingredients": [
+      "tortilla",
+      "chicken",
+      "lettuce",
+      "tomato",
+      "ranch dressing"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 2,
+    "description": "Grilled chicken wrap with fresh vegetables",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Veggie Panini",
+    "ingredients": [
+      "bread",
+      "zucchini",
+      "bell pepper",
+      "mozzarella",
+      "pesto"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 2,
+    "description": "Grilled vegetable sandwich with cheese",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "BLT Sandwich",
+    "ingredients": [
+      "bread",
+      "bacon",
+      "lettuce",
+      "tomato",
+      "mayonnaise"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 2,
+    "description": "Classic bacon, lettuce, and tomato sandwich",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Tuna Sandwich",
+    "ingredients": [
+      "bread",
+      "tuna",
+      "mayonnaise",
+      "celery",
+      "lettuce"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "10 minutes",
+    "servings": 2,
+    "description": "Simple tuna salad sandwich",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Falafel Wrap",
+    "ingredients": [
+      "pita bread",
+      "falafel",
+      "hummus",
+      "lettuce",
+      "tomato",
+      "tahini"
+    ],
+    "cuisine": "Middle Eastern",
+    "difficulty": "Medium",
+    "time": "25 minutes",
+    "servings": 3,
+    "description": "Mediterranean wrap with chickpea fritters",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Philly Cheesesteak",
+    "ingredients": [
+      "hoagie roll",
+      "beef",
+      "bell pepper",
+      "onion",
+      "provolone cheese"
+    ],
+    "cuisine": "American",
+    "difficulty": "Medium",
+    "time": "25 minutes",
+    "servings": 2,
+    "description": "Philadelphia-style steak and cheese sandwich",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Caesar Salad",
+    "ingredients": [
+      "romaine lettuce",
+      "parmesan cheese",
+      "croutons",
+      "caesar dressing",
+      "chicken"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 3,
+    "description": "Classic salad with creamy caesar dressing",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Greek Salad",
+    "ingredients": [
+      "cucumber",
+      "tomato",
+      "feta cheese",
+      "olives",
+      "onion",
+      "olive oil"
+    ],
+    "cuisine": "Greek",
+    "difficulty": "Easy",
+    "time": "10 minutes",
+    "servings": 4,
+    "description": "Fresh Mediterranean salad with feta",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Pasta Salad",
+    "ingredients": [
+      "pasta",
+      "cherry tomatoes",
+      "mozzarella",
+      "basil",
+      "olive oil"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "Easy",
+    "time": "20 minutes",
+    "servings": 4,
+    "description": "Cold pasta salad with vegetables",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Fruit Salad",
+    "ingredients": [
+      "watermelon",
+      "grapes",
+      "strawberries",
+      "pineapple",
+      "mint"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 6,
+    "description": "Refreshing mixed fruit salad",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Coleslaw",
+    "ingredients": [
+      "cabbage",
+      "carrot",
+      "mayonnaise",
+      "vinegar",
+      "sugar"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 6,
+    "description": "Creamy cabbage salad",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Caprese Salad",
+    "ingredients": [
+      "tomato",
+      "mozzarella",
+      "basil",
+      "olive oil",
+      "balsamic vinegar"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "Easy",
+    "time": "10 minutes",
+    "servings": 2,
+    "description": "Simple Italian salad with fresh mozzarella",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Taco Salad",
+    "ingredients": [
+      "lettuce",
+      "ground beef",
+      "cheese",
+      "tomato",
+      "tortilla chips",
+      "salsa"
+    ],
+    "cuisine": "Mexican",
+    "difficulty": "Easy",
+    "time": "20 minutes",
+    "servings": 4,
+    "description": "Mexican-inspired salad with taco toppings",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Quinoa Salad",
+    "ingredients": [
+      "quinoa",
+      "cucumber",
+      "tomato",
+      "feta cheese",
+      "lemon",
+      "olive oil"
+    ],
+    "cuisine": "Mediterranean",
+    "difficulty": "Easy",
+    "time": "25 minutes",
+    "servings": 4,
+    "description": "Healthy protein-rich grain salad",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Tomato Soup",
+    "ingredients": [
+      "tomato",
+      "onion",
+      "garlic",
+      "cream",
+      "basil",
+      "vegetable broth"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "30 minutes",
+    "servings": 4,
+    "description": "Classic creamy tomato soup",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Chicken Noodle Soup",
+    "ingredients": [
+      "chicken",
+      "noodles",
+      "carrot",
+      "celery",
+      "onion",
+      "chicken broth"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "40 minutes",
+    "servings": 6,
+    "description": "Comforting soup with chicken and vegetables",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Vegetable Soup",
+    "ingredients": [
+      "carrot",
+      "potato",
+      "celery",
+      "onion",
+      "tomato",
+      "vegetable broth"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "35 minutes",
+    "servings": 6,
+    "description": "Hearty mixed vegetable soup",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Lentil Soup",
+    "ingredients": [
+      "lentils",
+      "carrot",
+      "celery",
+      "onion",
+      "garlic",
+      "vegetable broth"
+    ],
+    "cuisine": "Mediterranean",
+    "difficulty": "Easy",
+    "time": "45 minutes",
+    "servings": 6,
+    "description": "Protein-rich lentil soup",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Minestrone Soup",
+    "ingredients": [
+      "pasta",
+      "beans",
+      "tomato",
+      "carrot",
+      "celery",
+      "zucchini"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "Medium",
+    "time": "50 minutes",
+    "servings": 6,
+    "description": "Italian vegetable and pasta soup",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "French Onion Soup",
+    "ingredients": [
+      "onion",
+      "beef broth",
+      "bread",
+      "gruyere cheese",
+      "butter"
+    ],
+    "cuisine": "French",
+    "difficulty": "Medium",
+    "time": "60 minutes",
+    "servings": 4,
+    "description": "Rich onion soup with melted cheese",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Butternut Squash Soup",
+    "ingredients": [
+      "butternut squash",
+      "onion",
+      "garlic",
+      "cream",
+      "vegetable broth"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "45 minutes",
+    "servings": 6,
+    "description": "Creamy autumn soup",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Corn Chowder",
+    "ingredients": [
+      "corn",
+      "potato",
+      "bacon",
+      "cream",
+      "onion",
+      "chicken broth"
+    ],
+    "cuisine": "American",
+    "difficulty": "Medium",
+    "time": "40 minutes",
+    "servings": 6,
+    "description": "Thick and creamy corn soup",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Grilled Chicken Breast",
+    "ingredients": [
+      "chicken breast",
+      "olive oil",
+      "garlic",
+      "lemon",
+      "herbs"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "25 minutes",
+    "servings": 4,
+    "description": "Simple grilled chicken with herbs",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Chicken Curry",
+    "ingredients": [
+      "chicken",
+      "onion",
+      "tomato",
+      "curry powder",
+      "coconut milk",
+      "garlic"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Medium",
+    "time": "40 minutes",
+    "servings": 4,
+    "description": "Spicy and creamy chicken curry",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Chicken Stir Fry",
+    "ingredients": [
+      "chicken",
+      "bell pepper",
+      "broccoli",
+      "soy sauce",
+      "garlic",
+      "ginger"
+    ],
+    "cuisine": "Asian",
+    "difficulty": "Easy",
+    "time": "20 minutes",
+    "servings": 4,
+    "description": "Quick Asian-style chicken and vegetables",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Roasted Chicken",
+    "ingredients": [
+      "whole chicken",
+      "butter",
+      "garlic",
+      "lemon",
+      "herbs",
+      "potato"
+    ],
+    "cuisine": "American",
+    "difficulty": "Medium",
+    "time": "90 minutes",
+    "servings": 6,
+    "description": "Classic oven-roasted whole chicken",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Chicken Tikka Masala",
+    "ingredients": [
+      "chicken",
+      "yogurt",
+      "tomato",
+      "cream",
+      "garam masala",
+      "onion"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Medium",
+    "time": "50 minutes",
+    "servings": 4,
+    "description": "Popular Indian curry with creamy tomato sauce",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Chicken Parmesan",
+    "ingredients": [
+      "chicken breast",
+      "breadcrumbs",
+      "mozzarella",
+      "tomato sauce",
+      "parmesan"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "Medium",
+    "time": "40 minutes",
+    "servings": 4,
+    "description": "Breaded chicken with cheese and tomato sauce",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Butter Chicken",
+    "ingredients": [
+      "chicken",
+      "butter",
+      "tomato",
+      "cream",
+      "spices",
+      "onion"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Medium",
+    "time": "45 minutes",
+    "servings": 4,
+    "description": "Rich and creamy North Indian curry",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Chicken Fajitas",
+    "ingredients": [
+      "chicken",
+      "bell pepper",
+      "onion",
+      "tortilla",
+      "lime",
+      "spices"
+    ],
+    "cuisine": "Mexican",
+    "difficulty": "Easy",
+    "time": "25 minutes",
+    "servings": 4,
+    "description": "Sizzling Mexican chicken with peppers",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Chicken Teriyaki",
+    "ingredients": [
+      "chicken",
+      "soy sauce",
+      "mirin",
+      "sugar",
+      "ginger",
+      "garlic"
+    ],
+    "cuisine": "Japanese",
+    "difficulty": "Easy",
+    "time": "25 minutes",
+    "servings": 4,
+    "description": "Sweet and savory Japanese chicken",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "BBQ Chicken",
+    "ingredients": [
+      "chicken",
+      "bbq sauce",
+      "onion",
+      "garlic",
+      "brown sugar"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "35 minutes",
+    "servings": 4,
+    "description": "Tangy barbecue chicken",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Veggie Burger",
+    "ingredients": [
+      "black beans",
+      "breadcrumbs",
+      "onion",
+      "garlic",
+      "spices",
+      "burger bun"
+    ],
+    "cuisine": "American",
+    "difficulty": "Medium",
+    "time": "30 minutes",
+    "servings": 4,
+    "description": "Hearty vegetarian burger patty",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Vegetable Stir Fry",
+    "ingredients": [
+      "broccoli",
+      "bell pepper",
+      "carrot",
+      "soy sauce",
+      "garlic",
+      "ginger"
+    ],
+    "cuisine": "Asian",
+    "difficulty": "Easy",
+    "time": "20 minutes",
+    "servings": 4,
+    "description": "Quick and healthy vegetable stir fry",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Palak Paneer",
+    "ingredients": [
+      "spinach",
+      "paneer",
+      "onion",
+      "tomato",
+      "cream",
+      "spices"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Medium",
+    "time": "35 minutes",
+    "servings": 4,
+    "description": "Indian cottage cheese in spinach gravy",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Vegetable Curry",
+    "ingredients": [
+      "mixed vegetables",
+      "coconut milk",
+      "curry paste",
+      "onion",
+      "garlic"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Easy",
+    "time": "30 minutes",
+    "servings": 4,
+    "description": "Creamy mixed vegetable curry",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Vegetarian Tacos",
+    "ingredients": [
+      "black beans",
+      "corn",
+      "avocado",
+      "salsa",
+      "tortilla",
+      "cheese"
+    ],
+    "cuisine": "Mexican",
+    "difficulty": "Easy",
+    "time": "20 minutes",
+    "servings": 4,
+    "description": "Healthy vegetarian tacos",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Eggplant Parmesan",
+    "ingredients": [
+      "eggplant",
+      "breadcrumbs",
+      "mozzarella",
+      "tomato sauce",
+      "parmesan"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "Medium",
+    "time": "50 minutes",
+    "servings": 4,
+    "description": "Breaded eggplant with cheese and sauce",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Stuffed Bell Peppers",
+    "ingredients": [
+      "bell pepper",
+      "rice",
+      "black beans",
+      "corn",
+      "cheese",
+      "tomato sauce"
+    ],
+    "cuisine": "American",
+    "difficulty": "Medium",
+    "time": "45 minutes",
+    "servings": 4,
+    "description": "Bell peppers stuffed with rice and vegetables",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Chana Masala",
+    "ingredients": [
+      "chickpeas",
+      "onion",
+      "tomato",
+      "garam masala",
+      "ginger",
+      "garlic"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Easy",
+    "time": "35 minutes",
+    "servings": 4,
+    "description": "Spicy chickpea curry",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Vegetable Biryani",
+    "ingredients": [
+      "rice",
+      "mixed vegetables",
+      "yogurt",
+      "spices",
+      "onion",
+      "saffron"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Hard",
+    "time": "60 minutes",
+    "servings": 6,
+    "description": "Aromatic vegetable rice dish",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Tofu Stir Fry",
+    "ingredients": [
+      "tofu",
+      "broccoli",
+      "bell pepper",
+      "soy sauce",
+      "garlic",
+      "ginger"
+    ],
+    "cuisine": "Asian",
+    "difficulty": "Easy",
+    "time": "25 minutes",
+    "servings": 4,
+    "description": "Protein-rich tofu with vegetables",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Brownies",
+    "ingredients": [
+      "chocolate",
+      "butter",
+      "sugar",
+      "eggs",
+      "flour",
+      "cocoa powder"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "40 minutes",
+    "servings": 12,
+    "description": "Fudgy chocolate brownies",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Chocolate Chip Cookies",
+    "ingredients": [
+      "flour",
+      "butter",
+      "sugar",
+      "eggs",
+      "chocolate chips",
+      "vanilla"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "25 minutes",
+    "servings": 24,
+    "description": "Classic chewy cookies with chocolate chips",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Vanilla Cake",
+    "ingredients": [
+      "flour",
+      "sugar",
+      "butter",
+      "eggs",
+      "milk",
+      "vanilla",
+      "baking powder"
+    ],
+    "cuisine": "American",
+    "difficulty": "Medium",
+    "time": "50 minutes",
+    "servings": 8,
+    "description": "Light and fluffy vanilla cake",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Chocolate Pudding",
+    "ingredients": [
+      "milk",
+      "cocoa powder",
+      "sugar",
+      "cornstarch",
+      "vanilla"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "20 minutes",
+    "servings": 4,
+    "description": "Creamy chocolate pudding",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Tiramisu",
+    "ingredients": [
+      "ladyfinger cookies",
+      "mascarpone",
+      "coffee",
+      "eggs",
+      "cocoa powder"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "Medium",
+    "time": "30 minutes",
+    "servings": 8,
+    "description": "Classic Italian coffee dessert",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Cheesecake",
+    "ingredients": [
+      "cream cheese",
+      "sugar",
+      "eggs",
+      "graham crackers",
+      "butter",
+      "vanilla"
+    ],
+    "cuisine": "American",
+    "difficulty": "Medium",
+    "time": "90 minutes",
+    "servings": 10,
+    "description": "Rich and creamy cheesecake",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Apple Pie",
+    "ingredients": [
+      "apples",
+      "flour",
+      "butter",
+      "sugar",
+      "cinnamon",
+      "pie crust"
+    ],
+    "cuisine": "American",
+    "difficulty": "Hard",
+    "time": "75 minutes",
+    "servings": 8,
+    "description": "Classic American apple pie",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Gulab Jamun",
+    "ingredients": [
+      "milk powder",
+      "flour",
+      "ghee",
+      "sugar",
+      "cardamom",
+      "rose water"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Medium",
+    "time": "45 minutes",
+    "servings": 12,
+    "description": "Sweet Indian milk dumplings in syrup",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Nachos",
+    "ingredients": [
+      "tortilla chips",
+      "cheese",
+      "jalapeno",
+      "sour cream",
+      "salsa",
+      "beans"
+    ],
+    "cuisine": "Mexican",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 4,
+    "description": "Loaded cheese nachos",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Quesadilla",
+    "ingredients": [
+      "tortilla",
+      "cheese",
+      "chicken",
+      "bell pepper",
+      "onion"
+    ],
+    "cuisine": "Mexican",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 2,
+    "description": "Grilled cheese-filled tortilla",
+    "dietary": "non-vegetarian"
+  },
+  {
+    "name": "Spring Rolls",
+    "ingredients": [
+      "spring roll wrapper",
+      "cabbage",
+      "carrot",
+      "noodles",
+      "soy sauce"
+    ],
+    "cuisine": "Asian",
+    "difficulty": "Medium",
+    "time": "30 minutes",
+    "servings": 6,
+    "description": "Crispy vegetable spring rolls",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Mozzarella Sticks",
+    "ingredients": [
+      "mozzarella cheese",
+      "breadcrumbs",
+      "eggs",
+      "flour",
+      "marinara sauce"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "25 minutes",
+    "servings": 4,
+    "description": "Fried cheese sticks with marinara",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Samosas",
+    "ingredients": [
+      "potato",
+      "peas",
+      "flour",
+      "cumin",
+      "coriander",
+      "garam masala"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Hard",
+    "time": "60 minutes",
+    "servings": 12,
+    "description": "Crispy Indian pastry with spiced filling",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Bruschetta",
+    "ingredients": [
+      "bread",
+      "tomato",
+      "basil",
+      "garlic",
+      "olive oil",
+      "balsamic vinegar"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 6,
+    "description": "Italian toasted bread with tomato topping",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Pakoras",
+    "ingredients": [
+      "besan",
+      "onion",
+      "potato",
+      "spinach",
+      "spices"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Easy",
+    "time": "25 minutes",
+    "servings": 6,
+    "description": "Indian vegetable fritters",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Dal Tadka",
+    "ingredients": [
+      "lentils",
+      "onion",
+      "tomato",
+      "garlic",
+      "cumin",
+      "ghee"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Easy",
+    "time": "35 minutes",
+    "servings": 4,
+    "description": "Tempered lentil curry",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Paneer Tikka",
+    "ingredients": [
+      "paneer",
+      "yogurt",
+      "bell pepper",
+      "onion",
+      "spices"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Medium",
+    "time": "30 minutes",
+    "servings": 4,
+    "description": "Grilled cottage cheese with spices",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Aloo Gobi",
+    "ingredients": [
+      "potato",
+      "cauliflower",
+      "onion",
+      "tomato",
+      "turmeric",
+      "cumin"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Easy",
+    "time": "30 minutes",
+    "servings": 4,
+    "description": "Potato and cauliflower curry",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Butter Naan",
+    "ingredients": [
+      "flour",
+      "yogurt",
+      "butter",
+      "yeast",
+      "sugar",
+      "salt"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Medium",
+    "time": "90 minutes",
+    "servings": 8,
+    "description": "Soft Indian flatbread with butter",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Aloo Paratha",
+    "ingredients": [
+      "wheat flour",
+      "potato",
+      "onion",
+      "green chili",
+      "spices"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Medium",
+    "time": "40 minutes",
+    "servings": 4,
+    "description": "Stuffed potato flatbread",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Rajma",
+    "ingredients": [
+      "kidney beans",
+      "onion",
+      "tomato",
+      "ginger",
+      "garlic",
+      "spices"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Easy",
+    "time": "45 minutes",
+    "servings": 4,
+    "description": "Red kidney bean curry",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Pav Bhaji",
+    "ingredients": [
+      "mixed vegetables",
+      "butter",
+      "pav bread",
+      "onion",
+      "tomato",
+      "spices"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Medium",
+    "time": "40 minutes",
+    "servings": 4,
+    "description": "Spicy mashed vegetable curry with bread",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Idli",
+    "ingredients": [
+      "rice",
+      "urad dal",
+      "fenugreek seeds",
+      "salt"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Hard",
+    "time": "12 hours",
+    "servings": 12,
+    "description": "Steamed rice cakes",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Tropical Rainbow Smoothie",
+    "ingredients": [
+      "banana",
+      "strawberry",
+      "orange",
+      "apple",
+      "watermelon",
+      "milk",
+      "yogurt"
+    ],
+    "cuisine": "International",
+    "difficulty": "Easy",
+    "time": "10 minutes",
+    "servings": 2,
+    "description": "Nutrient-packed smoothie with multiple fruits, milk and yogurt for a refreshing breakfast",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Berry Banana Power Smoothie",
+    "ingredients": [
+      "banana",
+      "strawberry",
+      "yogurt",
+      "milk",
+      "peanut butter",
+      "apple"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "8 minutes",
+    "servings": 2,
+    "description": "Protein-rich smoothie combining fruits, yogurt, milk and peanut butter for sustained energy",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Ultimate Garden Salad",
+    "ingredients": [
+      "lettuce",
+      "tomato",
+      "cucumber",
+      "cheese",
+      "apple",
+      "orange",
+      "strawberry"
+    ],
+    "cuisine": "International",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 4,
+    "description": "Fresh mixed salad with vegetables, fruits and cheese for a complete meal",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Rainbow Fruit Salad Bowl",
+    "ingredients": [
+      "watermelon",
+      "orange",
+      "apple",
+      "banana",
+      "strawberry",
+      "pear",
+      "yogurt"
+    ],
+    "cuisine": "International",
+    "difficulty": "Easy",
+    "time": "12 minutes",
+    "servings": 6,
+    "description": "Colorful fruit salad with seven different fruits topped with creamy yogurt",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Deluxe Veggie Sandwich",
+    "ingredients": [
+      "bread",
+      "lettuce",
+      "tomato",
+      "cucumber",
+      "cheese",
+      "butter",
+      "tomato sauce"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "10 minutes",
+    "servings": 2,
+    "description": "Hearty vegetable sandwich loaded with fresh vegetables, cheese and spreads",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "PB&J Fruit Delight",
+    "ingredients": [
+      "bread",
+      "peanut butter",
+      "jelly",
+      "banana",
+      "strawberry",
+      "apple"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "8 minutes",
+    "servings": 2,
+    "description": "Classic PB&J elevated with fresh sliced fruits for extra nutrition and flavor",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Breakfast Fruit Parfait",
+    "ingredients": [
+      "yogurt",
+      "banana",
+      "strawberry",
+      "apple",
+      "pear",
+      "orange",
+      "peanut butter"
+    ],
+    "cuisine": "International",
+    "difficulty": "Easy",
+    "time": "10 minutes",
+    "servings": 2,
+    "description": "Layered yogurt parfait with multiple fruits and peanut butter drizzle",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Fruit and Cheese Platter",
+    "ingredients": [
+      "apple",
+      "pear",
+      "orange",
+      "strawberry",
+      "watermelon",
+      "cheese",
+      "peanut butter"
+    ],
+    "cuisine": "International",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 4,
+    "description": "Elegant appetizer platter with assorted fruits, cheese cubes and peanut butter dip",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Mediterranean Veggie Wrap",
+    "ingredients": [
+      "bread",
+      "lettuce",
+      "tomato",
+      "cucumber",
+      "cheese",
+      "yogurt",
+      "tomato sauce"
+    ],
+    "cuisine": "Mediterranean",
+    "difficulty": "Easy",
+    "time": "12 minutes",
+    "servings": 2,
+    "description": "Fresh vegetable wrap with yogurt sauce, perfect for lunch or light dinner",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Creamy Fruit Smoothie Bowl",
+    "ingredients": [
+      "banana",
+      "strawberry",
+      "yogurt",
+      "milk",
+      "apple",
+      "pear",
+      "peanut butter"
+    ],
+    "cuisine": "International",
+    "difficulty": "Easy",
+    "time": "10 minutes",
+    "servings": 2,
+    "description": "Thick smoothie bowl topped with fresh fruits and peanut butter for a filling breakfast",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Garden Fresh Veggie Salad",
+    "ingredients": [
+      "lettuce",
+      "tomato",
+      "cucumber",
+      "cheese",
+      "yogurt",
+      "butter"
+    ],
+    "cuisine": "International",
+    "difficulty": "Easy",
+    "time": "10 minutes",
+    "servings": 3,
+    "description": "Crisp vegetable salad with creamy yogurt dressing and cheese",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Sunrise Fruit Medley",
+    "ingredients": [
+      "orange",
+      "banana",
+      "apple",
+      "strawberry",
+      "watermelon",
+      "pear",
+      "yogurt",
+      "milk"
+    ],
+    "cuisine": "International",
+    "difficulty": "Easy",
+    "time": "12 minutes",
+    "servings": 4,
+    "description": "Refreshing fruit mix with yogurt and milk, perfect for breakfast or dessert",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Cheese and Tomato Toast",
+    "ingredients": [
+      "bread",
+      "cheese",
+      "tomato",
+      "butter",
+      "tomato sauce",
+      "lettuce"
+    ],
+    "cuisine": "International",
+    "difficulty": "Easy",
+    "time": "10 minutes",
+    "servings": 2,
+    "description": "Open-faced toast with melted cheese, fresh tomatoes and crisp lettuce",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Peanut Butter Fruit Dip Platter",
+    "ingredients": [
+      "peanut butter",
+      "yogurt",
+      "apple",
+      "banana",
+      "strawberry",
+      "pear",
+      "orange"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "8 minutes",
+    "servings": 4,
+    "description": "Healthy snack with creamy peanut butter yogurt dip and assorted fresh fruits",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Complete Breakfast Bowl",
+    "ingredients": [
+      "yogurt",
+      "banana",
+      "apple",
+      "strawberry",
+      "peanut butter",
+      "bread",
+      "milk"
+    ],
+    "cuisine": "International",
+    "difficulty": "Easy",
+    "time": "10 minutes",
+    "servings": 2,
+    "description": "Nutritious breakfast bowl with yogurt, fruits, peanut butter and toasted bread cubes",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Banana Oat Pancakes",
+    "ingredients": [
+      "banana",
+      "milk",
+      "oats",
+      "honey",
+      "egg"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 2,
+    "description": "Healthy and fluffy pancakes made with ripe bananas and oats.",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Apple Cinnamon Oatmeal",
+    "ingredients": [
+      "apple",
+      "milk",
+      "oats",
+      "cinnamon",
+      "honey"
+    ],
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "time": "10 minutes",
+    "servings": 1,
+    "description": "Warm and cozy breakfast oatmeal topped with sweet apples and cinnamon.",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Paneer Bhurji",
+    "ingredients": [
+      "paneer",
+      "onion",
+      "tomato",
+      "capsicum",
+      "spices",
+      "oil"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 3,
+    "description": "Scrambled cottage cheese cooked with aromatic spices and fresh vegetables.",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Cucumber Mint Cooler",
+    "ingredients": [
+      "cucumber",
+      "lemon",
+      "mint",
+      "water",
+      "sugar"
+    ],
+    "cuisine": "International",
+    "difficulty": "Easy",
+    "time": "5 minutes",
+    "servings": 2,
+    "description": "Refreshing and hydrating summer drink with fresh cucumber, mint, and lemon juice.",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Bread Pizza",
+    "ingredients": [
+      "bread",
+      "capsicum",
+      "tomato",
+      "onion",
+      "cheese",
+      "sauce"
+    ],
+    "cuisine": "Italian-Indian",
+    "difficulty": "Easy",
+    "time": "10 minutes",
+    "servings": 2,
+    "description": "Quick mini pizzas made on bread slices using a tawa or oven.",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Aloo Tamatar Sabji",
+    "ingredients": [
+      "potato",
+      "tomato",
+      "onion",
+      "ginger",
+      "spices",
+      "oil"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Easy",
+    "time": "25 minutes",
+    "servings": 4,
+    "description": "A simple, comforting potato and tomato curry that goes perfectly with rotis.",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Gajar Ka Halwa",
+    "ingredients": [
+      "carrot",
+      "milk",
+      "sugar",
+      "ghee",
+      "nuts"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "Medium",
+    "time": "40 minutes",
+    "servings": 4,
+    "description": "Traditional carrot pudding slow-cooked in milk and ghee, rich and delicious.",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Banana Milkshake",
+    "ingredients": [
+      "banana",
+      "milk",
+      "sugar",
+      "honey",
+      "ice"
+    ],
+    "cuisine": "International",
+    "difficulty": "Easy",
+    "time": "5 minutes",
+    "servings": 2,
+    "description": "Creamy and satisfying sweet milkshake made with ripe bananas and chilled milk.",
+    "dietary": "vegetarian"
+  },
+  {
+    "name": "Leftover Roti Quesadilla",
+    "ingredients": [
+      "roti",
+      "cheese",
+      "onion",
+      "capsicum",
+      "tomato",
+      "chili"
+    ],
+    "cuisine": "Mexican-Indian",
+    "difficulty": "Easy",
+    "time": "15 minutes",
+    "servings": 2,
+    "description": "A fusion quesadilla made with leftover rotis, stuffed with cheese and fresh vegetables.",
+    "dietary": "vegetarian"
+  }
+]

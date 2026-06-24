@@ -1,0 +1,15 @@
+onion
+tomato
+potato
+lemon
+carrot
+capsicum
+cucumber
+bread
+rice
+roti
+curd
+milk
+paneer
+banana
+apple

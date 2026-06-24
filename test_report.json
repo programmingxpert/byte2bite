@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-06-23T06:46:50Z",
+  "results": [
+    {
+      "test": "User 18 Ingredients - Results Returned",
+      "status": "[PASS]",
+      "passed": true,
+      "details": "Returned 20 recipes"
+    },
+    {
+      "test": "More than 5 recipes returned",
+      "status": "[PASS]",
+      "passed": true,
+      "details": "Got 20 recipes (expected > 5, max 20)"
+    },
+    {
+      "test": "Grilled Cheese at #1 with 100% match",
+      "status": "[PASS]",
+      "passed": true,
+      "details": "First recipe: Grilled Cheese Sandwich (100.0%)"
+    },
+    {
+      "test": "Sorting Order - User 18 Ingredients",
+      "status": "[PASS]",
+      "passed": true,
+      "details": "Correct sort order"
+    },
+    {
+      "test": "Utilization scores present",
+      "status": "[PASS]",
+      "passed": true,
+      "details": "All 20 recipes have utilization scores"
+    },
+    {
+      "test": "Empty ingredients handled",
+      "status": "[PASS]",
+      "passed": true,
+      "details": "Returned 0 recipes (expected 0 or handled gracefully)"
+    },
+    {
+      "test": "Single ingredient handled",
+      "status": "[PASS]",
+      "passed": true,
+      "details": "Returned 0 recipes"
+    },
+    {
+      "test": "No matches handled gracefully",
+      "status": "[PASS]",
+      "passed": true,
+      "details": "Returned 0 recipes (expected 0)"
+    },
+    {
+      "test": "String format (backward compatibility)",
+      "status": "[PASS]",
+      "passed": true,
+      "details": "Returned 10 recipes"
+    },
+    {
+      "test": "Object format (new)",
+      "status": "[PASS]",
+      "passed": true,
+      "details": "Returned 10 recipes"
+    },
+    {
+      "test": "Format compatibility",
+      "status": "[PASS]",
+      "passed": true,
+      "details": "Top 5 recipes overlap: 5/5"
+    },
+    {
+      "test": "Quantity information processed",
+      "status": "[FAIL]",
+      "passed": false,
+      "details": "Returned 0 recipes with fruit ingredients"
+    },
+    {
+      "test": "Utilization varies by recipe",
+      "status": "[PASS]",
+      "passed": true,
+      "details": "Found 3 different utilization values in top 10"
+    },
+    {
+      "test": "Utilization in valid range (0-100)",
+      "status": "[PASS]",
+      "passed": true,
+      "details": "Range: 37.5-62.5%"
+    },
+    {
+      "test": "Result limit respected (<=20)",
+      "status": "[PASS]",
+      "passed": true,
+      "details": "Returned 18 recipes (max 20)"
+    },
+    {
+      "test": "More than old limit (>5)",
+      "status": "[PASS]",
+      "passed": true,
+      "details": "Returned 18 recipes (old limit was 5)"
+    }
+  ],
+  "summary": {
+    "total": 16,
+    "passed": 15,
+    "failed": 1,
+    "success_rate": 93.75,
+    "findings": [
+      "OK Sorting is working correctly (Match % -> Utilization % -> Ingredients Used)",
+      "OK Result limit successfully increased from 5 to 20",
+      "OK Utilization scoring is working correctly",
+      "OK Backward compatibility maintained"
+    ],
+    "recommendations": [
+      "WARNING 1 test(s) failed. Review details above.",
+      "- Consider adding unit tests for individual functions",
+      "- Add performance benchmarks for large ingredient lists",
+      "- Consider caching recipe matches for common ingredient combinations",
+      "- Add logging for debugging production issues"
+    ]
+  }
+}
