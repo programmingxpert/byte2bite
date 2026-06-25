@@ -10,7 +10,7 @@ By analyzing photos of refrigerator contents or kitchen pantries, Byte2Bite auto
 
 ### 📸 Multimodal Refrigerator Scanner
 * Upload a photo of your refrigerator or kitchen counter.
-* The system utilizes the **Qwen-VL Vision model** to recognize ingredients, draw labeled bounding boxes on the image, and compile a digital inventory list automatically.
+* The system utilizes the **Qwen-VL Vision model** (local) or **Moondream Vision model** (cloud) to recognize ingredients, draw labeled bounding boxes on the image, and compile a digital inventory list automatically.
 
 ### ⏱️ Spoilage Risk Alerts ("Use Soon")
 * Perishable items (like milk, curd, paneer, and bread) are automatically flagged in the UI with a `Use Soon` warning badge, prompting cooks to prioritize utilizing soon-to-expire ingredients.
@@ -31,14 +31,116 @@ By analyzing photos of refrigerator contents or kitchen pantries, Byte2Bite auto
 
 ---
 
-## ⚙️ Hybrid Local/Cloud Architecture
+## 🏗️ System Architecture & Data Flow
 
-Byte2Bite runs in a flexible dual execution mode configurable via environment variables:
+Byte2Bite utilizes a modular AI pipeline that coordinates computer vision, search, and LLM reasoning.
 
-| Mode | Vision Model (Qwen) | Reasoning Model (Granite) | Connection / Deployment |
-| :--- | :--- | :--- | :--- |
-| **Local Mode** | Runs locally via HuggingFace `transformers` (requires GPU VRAM) | Runs locally via Ollama (`http://localhost:11434`) | Suitable for local offline development. |
-| **Cloud Mode** | Runs remotely via Ollama API (`qwen3-vl:2b`) | Runs remotely via Ollama API (`granite3-dense:2b`) | Secure paramiko SSH tunnel forwards VM port `11434` to local port `11435` bypassing Sophos firewalls. Optimized for lightweight hosting (e.g. Vercel/Cloudflare). |
+### 🔄 Data Processing Pipeline
+
+Below is the step-by-step pipeline showing how raw image uploads are converted into recipe recommendations and sustainability scores:
+
+```mermaid
+flowchart TD
+    A([User Uploads Image]) --> B{Execution Mode?}
+    
+    B -->|Local Mode| C1[In-Memory Qwen2.5-VL Model]
+    B -->|Cloud Mode| C2[Remote Moondream via SSH Tunnel]
+    
+    C1 --> D[Comma-Separated Ingredient List]
+    C2 --> D
+    
+    D --> E[Fuzzy Matcher: Match against Curated DB]
+    
+    E --> F[Categorize & Rank Results]
+    F -->|Best Match| F1[Sort by Ingredient Completion %]
+    F -->|Most Ingredients| F2[Sort by Total Used Ingredients]
+    
+    F1 & F2 --> G[Identify Missing & Available Ingredients]
+    
+    G --> H[Query IBM Granite LLM]
+    H --> I[Generate SDG 12 Waste Reduction Score]
+    H --> J[Generate Sustainability Tips & Footprint Info]
+    
+    I & J --> K[AI Kitchen Companion chatbot interaction ready]
+    K --> L([Return Complete Recommendations & Insights to UI])
+```
+
+---
+
+## ⚙️ Execution Modes: Local vs. Cloud
+
+Byte2Bite features a hybrid execution design that allows developers and users to toggle between **Local Mode** and **Cloud Mode** via configuration.
+
+### 1. Local Mode Architecture
+
+In **Local Mode**, the application runs entirely on your local workstation without external API requirements (except for initial model downloads).
+
+```mermaid
+graph TD
+    subgraph Local Workstation [Your Local Machine]
+        F[Frontend: React/Vite Browser] -->|HTTP API Port 8000| B[FastAPI Backend]
+        
+        subgraph Local AI Inference
+            B -->|Python Call| HF[HuggingFace Transformers]
+            HF -->|Local GPU/CPU Inference| Q[Qwen2.5-VL Model]
+            
+            B -->|HTTP Port 11434| LO[Local Ollama Service]
+            LO -->|Local LLM Inference| G[IBM Granite LLM]
+        end
+        
+        subgraph Local Data
+            B --> R[Recipes DB JSON]
+            B --> C[Ingredient Cache JSON]
+        end
+    end
+```
+
+* **Vision Model**: Qwen2.5-VL (`Qwen/Qwen2.5-VL-3B-Instruct`) loaded into Python memory using HuggingFace `transformers`.
+* **Reasoning Model**: IBM Granite (`granite4:latest` or similar) running on a local Ollama instance (`http://localhost:11434`).
+
+---
+
+### 2. Cloud Mode Architecture (Secure SSH Tunnel)
+
+In **Cloud Mode**, the application offloads heavy AI processing to a remote GPU/CPU server (VPS) over a secure, encrypted SSH port-forwarding tunnel. This bypasses client-side hardware requirements and restricted network environments (such as corporate or university firewalls).
+
+```mermaid
+graph TD
+    subgraph Client Environment [Local Dev / Serverless Host]
+        FE[Frontend Browser] -->|HTTP Port 8000 / HTTPS| BE[FastAPI Backend]
+        BE -->|Paramiko SSH client| LH[Local Tunnel Listener Port 11435]
+    end
+
+    subgraph Secure SSH Tunnel [Encrypted TCP-over-SSH Port 22]
+        LH -->|Direct-TCPIP Channel| SS[VPS SSH Server]
+    end
+
+    subgraph Remote VPS Instance [Cloud Server]
+        SS -->|Forwarded traffic| RO[Ollama Service Port 11434]
+        
+        subgraph Remote AI Models
+            RO -->|Vision Model| MV[moondream:latest]
+            RO -->|Reasoning LLM| GL[granite3-dense:2b]
+        end
+    end
+```
+
+* **SSH Port Forwarding**: At startup, the FastAPI backend initiates a background SSH connection to the remote VPS using Paramiko. It listens locally on port `11435`.
+* **Traffic Flow**: Any request sent by the backend to `http://localhost:11435` is automatically intercepted, encrypted, and tunneled over port 22 to the VPS's localhost port `11434`.
+* **Vision Model**: Remote Ollama processes the image using the lightweight `moondream:latest` model, which takes ~3 seconds to run on standard VPS CPUs.
+* **Reasoning Model**: Remote Ollama runs IBM Granite (`granite3-dense:2b`) for lightweight, low-latency reasoning.
+
+---
+
+### 💡 Operational Guidelines: When to use what?
+
+| Criterion | Local Mode | Cloud Mode |
+| :--- | :--- | :--- |
+| **Local Hardware** | **Requires Dedicated GPU** (NVIDIA CUDA or Apple Silicon Mac) with at least 8GB+ VRAM. | **Low-Spec Friendly**. Can run on simple laptops, tablets, or serverless hosts (Vercel/Cloudflare Pages). |
+| **Internet Access** | **Fully Offline** (after initial model download). Ideal for offline dev or air-gapped systems. | **Requires Internet** to maintain connection and tunnel traffic to the remote VPS. |
+| **Privacy / Security** | **Max Privacy**. Images and prompt data never leave your physical machine. | **Secured Transit**. Data is encrypted inside the SSH tunnel and processed on your own private VPS. |
+| **Vision Inference Speed** | Fast (~2-5 seconds) when run on a compatible GPU. Slow on CPU. | Ultra-fast (~3 seconds) even on basic VPS CPUs due to the optimized `moondream:latest` model. |
+| **Firewall Bypassing** | N/A (runs entirely locally). | **Excellent**. Uses port 22 (SSH) to tunnel HTTP traffic, bypassing outbound firewalls like Sophos that block unknown HTTP ports. |
 
 ---
 
