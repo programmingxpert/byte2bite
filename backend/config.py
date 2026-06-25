@@ -26,7 +26,7 @@ CLOUD_OLLAMA_PORT = int(os.getenv("CLOUD_OLLAMA_PORT", "11434"))
 LOCAL_OLLAMA_URL = os.getenv("LOCAL_OLLAMA_URL", "http://localhost:11434")
 LOCAL_GRANITE_MODEL = os.getenv("LOCAL_GRANITE_MODEL", "granite4:latest")
 CLOUD_GRANITE_MODEL = os.getenv("CLOUD_GRANITE_MODEL", "granite3-dense:2b")
-CLOUD_QWEN_MODEL = os.getenv("CLOUD_QWEN_MODEL", "qwen3-vl:2b")
+CLOUD_QWEN_MODEL = os.getenv("CLOUD_QWEN_MODEL", "moondream:latest")
 
 # Port for local end of SSH tunnel
 TUNNEL_LOCAL_PORT = 11435

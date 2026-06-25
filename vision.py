@@ -317,7 +317,10 @@ def extract_ingredients(image_path):
             
             port = TUNNEL_LOCAL_PORT if MODEL_MODE == "cloud" else 11434
             url = f"http://localhost:{port}/api/generate"
-            prompt = """Identify only edible food items with their quantities.
+            if "moondream" in CLOUD_QWEN_MODEL.lower():
+                prompt = "Identify all the food items visible in this image. Output them as a simple comma-separated list of ingredients. Example: milk, tomato, bread, cheese, onion."
+            else:
+                prompt = """Identify only edible food items with their quantities.
 For each item, specify the count if multiple are visible.
 Return in format: ingredient:count, ingredient:count
 If only one item, use count of 1.
