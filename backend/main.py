@@ -468,7 +468,16 @@ async def analysis_stream(file_path: str, dietary_preference: Optional[str] = No
             yield f"data: {json.dumps({'stage': 'detection', 'progress': 30, 'message': 'Detecting ingredients with AI...'})}\n\n"
             
             loop = asyncio.get_event_loop()
-            result = await loop.run_in_executor(None, extract_ingredients, file_path)
+            extraction_task = loop.run_in_executor(None, extract_ingredients, file_path)
+            
+            while not extraction_task.done():
+                yield ": keep-alive\n\n"
+                try:
+                    await asyncio.wait_for(asyncio.shield(extraction_task), timeout=5.0)
+                except asyncio.TimeoutError:
+                    continue
+                    
+            result = await extraction_task
             
             if isinstance(result, dict):
                 ingredients = result.get("ingredients", [])
@@ -561,13 +570,22 @@ async def analysis_stream(file_path: str, dietary_preference: Optional[str] = No
             recipe_names = [r["name"] for r in recipes[:5]]
             
             # Run Granite recommendation in background thread
-            ai_recommendation = await loop.run_in_executor(
+            ai_task = loop.run_in_executor(
                 None,
                 get_recommendation,
                 [i["name"] for i in ingredients],
                 recipe_names,
                 top_recipe
             )
+            
+            while not ai_task.done():
+                yield ": keep-alive\n\n"
+                try:
+                    await asyncio.wait_for(asyncio.shield(ai_task), timeout=5.0)
+                except asyncio.TimeoutError:
+                    continue
+                    
+            ai_recommendation = await ai_task
             
             unused_ingredients = list(set(i["name"] for i in ingredients) - set(top_recipe.get("matched", [])))
             sustainability_tips = None
@@ -610,7 +628,12 @@ async def analysis_stream(file_path: str, dietary_preference: Optional[str] = No
             traceback.print_exc()
             yield f"data: {json.dumps({'stage': 'error', 'progress': 0, 'message': f'Analysis failed: {str(e)}'})}\n\n"
             
-    return StreamingResponse(event_generator(), media_type="text/event-stream")
+    headers = {
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "X-Accel-Buffering": "no"
+    }
+    return StreamingResponse(event_generator(), headers=headers, media_type="text/event-stream")
 
 
 @app.post("/api/chat")
